@@ -13,6 +13,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="84dp"
         android:background="@color/lightgrey"
+        android:gravity="center_horizontal|center_vertical"
         android:text="Bill "
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,17 +26,21 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
         android:background="@color/lightgrey"
+        android:gravity="center_horizontal|center_vertical"
         android:text="Tip (%)"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv1" />
 
+
+    <!--Red Line  -->
+
     <EditText
         android:id="@+id/amount_bill"
         android:layout_width="272dp"
         android:layout_height="57dp"
-        android:layout_marginTop="83dp"
-        android:layout_marginEnd="19dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="16dp"
         android:ems="10"
         android:gravity="center_horizontal|center_vertical"
         android:hint="Enter Bill "
@@ -43,9 +48,6 @@
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
-    <!--Red Line  -->
 
     <EditText
         android:id="@+id/amount_tip_percent"
@@ -79,6 +81,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="33dp"
         android:background="@color/lightgrey"
+        android:gravity="center_horizontal|center_vertical"
         android:text="Tip ($)"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -86,11 +89,12 @@
 
     <TextView
         android:id="@+id/tv4"
-        android:layout_width="89dp"
-        android:layout_height="63dp"
+        android:layout_width="96dp"
+        android:layout_height="60dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="80dp"
         android:background="@color/lightgrey"
+        android:gravity="center_horizontal|center_vertical"
         android:text="Total"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
